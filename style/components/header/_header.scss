@@ -1,0 +1,60 @@
+header {
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+  min-width: 230px;
+  padding: 15px 0 0;
+  margin: 0 0;
+  color: rgba(0, 0, 0, 0.87);
+}
+
+.header_content {
+  display: flex;
+  align-items: center;
+  min-width: 196px;
+  padding: 0 30px;
+  font: normal 13px 'Arial', sans-serif;
+  line-height: 24px;
+
+  a {
+    display: inline-block;
+    margin-right: 15px;
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.87);
+    cursor: pointer;
+
+    &:hover {
+      text-decoration: underline;
+      color: rgba(0, 0, 0, 0.7);
+    }
+  }
+}
+
+.app {
+  width: 30px;
+  height: 30px;
+  opacity: .8;
+
+  &:hover {
+    opacity: 1;
+    cursor: pointer;
+  }
+
+  img {
+    display: block;
+    max-width: 100%;
+  }
+}
+
+.account_photo {
+  width: 34px;
+  height: 34px;
+  margin-left: 15px;
+  cursor: pointer;
+
+  img {
+    display: block;
+    max-width: 100%;
+    height: 100%;
+  }
+}
